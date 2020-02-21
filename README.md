@@ -20,7 +20,6 @@
 - belongs_to  :user
 - belongs_to :group
 
-
 ## groups_usersテーブル
 |Column|Type|Options|
 |------|----|-------|
@@ -38,6 +37,8 @@
 - has_many  :users,  through:  :groups_users
 - has_many :tweets
 - has_many :groups_users
+
+
 
 
 
